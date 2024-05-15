@@ -12,6 +12,11 @@ I open browser
 
 I navigate to eshop
     Go to        ${root_url}
+    Agree with personal data usage
+
+Agree with personal data usage
+    Wait until page contains element     ${consent}
+    Click element                        ${consent}
 
 I see header
     Wait until page contains element       ${header}
@@ -29,7 +34,7 @@ I open cart
     Click Element                         ${cart}
     Check advertisment                    view_cart
 
- I verify cart is present
+I verify cart is present
     Wait until page contains element      ${cart_header}
     Capture Page Screenshot
 
@@ -38,7 +43,7 @@ I open products
     Click Element                         ${products}
     Check advertisment                    products
 
- I verify products are present
+I verify products are present
     Wait Until Page Contains Element      ${products_header}
     Wait Until Page Contains Element      ${category_headline}
     Wait Until Page Contains Element      ${brands_headline}

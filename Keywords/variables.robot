@@ -33,4 +33,5 @@ ${signup_button}                //button[contains(text(),'Signup')]
 ${account_created_success_msg}  //b[contains(text(),'Account Created!')]
 ${continue_button}              //a[contains(text(),'Continue')]
 ${account_deleted_success_msg}  //b[contains(text(),'Account Deleted!')]
+${consent}                      //button[@class="fc-button fc-cta-consent fc-primary-button"]/p
 
