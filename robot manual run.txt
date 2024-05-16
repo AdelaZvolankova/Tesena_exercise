@@ -1,0 +1,1 @@
+python -m robot --variablefile ../configs/config_prod.py --outputdir report ui.robot
