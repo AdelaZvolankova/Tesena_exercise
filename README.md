@@ -1,5 +1,5 @@
 
-# This is test repo for Tesena bootcamp.
+# This is test repo for Tesena bootcamp
 
 
 
