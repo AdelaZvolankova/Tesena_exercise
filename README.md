@@ -16,5 +16,5 @@ I'm test automation engineer in Tesena.
 
 ## Appendix
 
-Any additional information goes here
+Run Tests by this command: python -m robot --variablefile ../configs/config_prod.py --outputdir report ui.robot  
 
